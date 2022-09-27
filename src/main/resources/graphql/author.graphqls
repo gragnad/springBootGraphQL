@@ -1,0 +1,15 @@
+type Author {
+    id: Int
+    firstName: String
+    lastName: String
+    startRating : Int
+    booId: Int
+}
+
+enum StartRating {
+    _1,
+    _2,
+    _3,
+    _4,
+    _5
+}
